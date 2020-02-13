@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "monospace", "sans-serif";
+}
+
+.container {
+  background-color: #eec78d;
+  width: 60%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
